@@ -1,0 +1,111 @@
+body {
+    background-image: url('https://img.freepik.com/premium-photo/diagonal-moscow-metro-station-bokeh-background-hd_199726-11131.jpg?size=626&ext=jpg&ga=GA1.1.867424154.1714348800&semt=ais');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #333; /* Default text color */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #2a5281; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.hd {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tab {
+    background-color: rgba(255, 255, 255, 0.8); /* Light gray background */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.tab label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.tab input[type="text"],
+.tab input[type="date"],
+.tab input[type="number"],
+.tab input[type="submit"],
+.tab select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.tab input[type="submit"] {
+    background-color: #007BFF; /* Blue color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue color */
+}
+
+/* Added styles for container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.design-container {
+    width: 100%;
+    max-width: 700px;
+}
+
+.colour-1 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#main {
+    width: 800px;
+}
+
+footer {
+            background-color: #27578b;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+}
+
+footer p {
+            font-size: 0.7rem;
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .design-container {
+        width: 100%;
+    }
+
+    #main {
+        width: 100%;
+    }
+}
